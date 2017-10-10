@@ -28,7 +28,7 @@ public class CommonDriver {
 	catch (IOException e) 
 		{
 
-		System.out.println("Unable to read the file properly");
+		System.out.println("Unable to read the file properly.");
 		}
 	return Config.getProperty(key);
 	}
