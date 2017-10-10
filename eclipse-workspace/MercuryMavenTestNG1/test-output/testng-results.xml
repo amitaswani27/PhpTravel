@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6486" started-at="2017-10-10T02:36:41Z" finished-at="2017-10-10T02:36:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6486" started-at="2017-10-10T02:36:41Z" finished-at="2017-10-10T02:36:48Z">
+      <class name="test_cases.LoginSuccessfully">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:test_cases.LoginSuccessfully@7dc7cbad]" name="openbrowser" is-config="true" duration-ms="9225" started-at="2017-10-10T13:36:32Z" finished-at="2017-10-10T13:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test_cases.LoginSuccessfully@7dc7cbad]" name="Login" duration-ms="6445" started-at="2017-10-10T13:36:41Z" finished-at="2017-10-10T13:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:test_cases.LoginSuccessfully@7dc7cbad]" name="closebrowser" is-config="true" duration-ms="3721" started-at="2017-10-10T13:36:48Z" finished-at="2017-10-10T13:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test_cases.LoginSuccessfully -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
