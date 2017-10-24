@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="7.2"
+id="efd240a7-44cf-4d59-b846-311287a1e28d">
+  <codegen classname="Recording1" namespace="Test1"/>
+  <name>
+    Recording1
+  </name>
+  <recorditems/>
+  <repository name="Test1Repository" rxversion="7.2" relativepath="Test1Repository.rxrep">
+  </repository>
+</recordtable>

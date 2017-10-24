@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="ProjectRanorexRepository"
+id="e16b33ed-faf9-4bc4-b9fb-6be103601de6"
+rxversion="7.2">
+  <codegen
+  classname="ProjectRanorexRepository"
+  namespace="ProjectRanorex"/>
+  <rootfolder
+  name="Root"
+  id="4ff7b6a5-8e78-4e2f-a6f8-dbc6bad7887e"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

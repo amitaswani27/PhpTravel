@@ -1,5 +1,7 @@
 package testDefinition;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,23 +20,21 @@ public class VerifyTitle {
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Amit\\Desktop\\Selenium\\Selenium\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 	}
 
-	@When("^Enter valid \"([^\"]*)\" \"([^\"]*)\" and clic login$")
+	@When("^Enter valid \"([^\"]*)\" \"([^\"]*)\" and click login$")
 	public void Enter_valid_username_password_and_clic_login(String usern, String pass) throws Throwable {
 		
 		driver.findElement(By.id("email")).sendKeys(usern);
 		driver.findElement(By.id("pass")).sendKeys(pass);
-		driver.findElement(By.id("u_0_2")).click();
+		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
 	}
 
-	@Then("^User should be logged in successfully$")
+	@Then("^User should be logged out successfully$")
 	public void User_should_be_logged_in_successfully() throws Throwable {
 		
-		String actualTitle = driver.getTitle();
-		System.out.println("Actual Title is: " + actualTitle);
-		System.out.println("Logged in successfully");
 		driver.quit();
 			}
 

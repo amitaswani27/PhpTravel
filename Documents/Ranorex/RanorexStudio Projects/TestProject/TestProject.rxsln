@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 7.2
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{B646FA9B-F401-4433-8B9A-F635166EFA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B646FA9B-F401-4433-8B9A-F635166EFA57}.Debug|x86.Build.0 = Debug|x86
+		{B646FA9B-F401-4433-8B9A-F635166EFA57}.Debug|x86.ActiveCfg = Debug|x86
+		{B646FA9B-F401-4433-8B9A-F635166EFA57}.Release|x86.Build.0 = Release|x86
+		{B646FA9B-F401-4433-8B9A-F635166EFA57}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

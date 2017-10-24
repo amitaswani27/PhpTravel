@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0ff09217-d5e8-4f3d-9f0c-99eba2a9ea0d"
+mode="Global"
+rxversion="7.2">
+	<name>
+		Login
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Login"
+	namespace="KeePass">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ba3c58df-d6a6-4273-abb7-1288000ad46b"
+	name="KeePassRepository"
+	relativepath="KeePassRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="KeePassRepository"
+		namespace="KeePass">
+		</codegen>
+		<rootfolder
+		id="42f4f834-bce3-47f9-8d83-e46090e5d45c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Login.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

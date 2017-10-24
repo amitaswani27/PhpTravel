@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="45ae5c23-73b0-4b5b-8453-a05841247752"
+mode="Global"
+rxversion="7.2">
+	<name>
+		DeleteEntry
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DeleteEntry"
+	namespace="KeePass1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="955f8d32-e8ee-4a43-9a1d-0c139cb14d66"
+	name="KeePass1Repository"
+	relativepath="KeePass1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="KeePass1Repository"
+		namespace="KeePass1">
+		</codegen>
+		<rootfolder
+		id="9b74829e-2d24-4ff7-8868-354b06f58a56"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DeleteEntry.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

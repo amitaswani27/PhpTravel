@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8a982739-9627-448f-8304-ecebbdde0e2e"
+mode="Global"
+rxversion="7.2">
+	<name>
+		Test
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Test"
+	namespace="FirstProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="21f105ad-49d3-4e48-9428-7cc12fdd157f"
+	name="FirstProjectRepository"
+	relativepath="FirstProjectRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="FirstProjectRepository"
+		namespace="FirstProject">
+		</codegen>
+		<rootfolder
+		id="8545c898-7f29-4ab5-bf85-60825452de08"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Test.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

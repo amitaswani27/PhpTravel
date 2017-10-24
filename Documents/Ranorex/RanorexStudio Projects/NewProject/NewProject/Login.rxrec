@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="678e9865-5b26-46b6-85ad-ddfc2a3f8c2f"
+mode="Global"
+rxversion="7.2">
+	<name>
+		Login
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Login"
+	namespace="NewProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="0b794314-a06a-457d-9a09-4b7dc5c4bbcd"
+	name="NewProjectRepository"
+	relativepath="NewProjectRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="NewProjectRepository"
+		namespace="NewProject">
+		</codegen>
+		<rootfolder
+		id="8cab6bab-fb47-42c0-a12e-743ab3783d18"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Login.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

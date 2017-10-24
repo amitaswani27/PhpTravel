@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="KeePassRepository"
+id="ba3c58df-d6a6-4273-abb7-1288000ad46b"
+rxversion="7.2">
+  <codegen
+  classname="KeePassRepository"
+  namespace="KeePass"/>
+  <rootfolder
+  name="Root"
+  id="42f4f834-bce3-47f9-8d83-e46090e5d45c"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

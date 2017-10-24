@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="86f9c9d9-33dc-4e83-8106-3ac795ded570"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="NewProject1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="21;17"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ad883c38-3b7d-4356-bd4e-3cf3ef8c9245"
+		sx="985"
+		sy="119"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="96969dc3-2dac-46fc-bb08-6c157302a8fa"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="964,102,47,30"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Closes the window
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ccf2c14b-9700-4821-8986-91e63b00d1a5">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADeAN4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDJoooo
+ADSGloNADDTDUjCmGgBhpKcaSgAFPWmCnigCVeafTEp9ABTTTqQ0ARkU2nmm5oABS0gpaAFopKWg
+ApDS0lABSH60tJQAUUUlAFWkpaSgC/RRRQAUGiigBpppp5phoAYaKWkoAKUU2nCgCVTUgqJTUooA
+KQ040hoAjbpTTTyKYaAAUtNpQaAFzRRQBQAtGKUUuKAGEUYpxFIaAG4ooooAp0UtJQBfooo7UAFF
+FFACGmtTqaaAGGkpxppoASlFJS0ASLUo6VCtTLQAtFLSUAMbmmGpGqM0ANpRzTTSigB1PFNFOFAD
+hS0gp3WgBp6U0j0qQimMOaAGUlKaQ0AU6KKKAL9FFFABRRSUABpppxpDQAw000402gBKUUlFAEim
+pVNQL1qZaAH0UUuKAGmo2FSEUw0ARkUClNIKAHCpF5qMVItADhTgOKBTscUANIppFSYppHHFAELC
+hVLvtHenNVm1i43n8KAMekoooAv0uaSigAxR0opaAEpDS0hoAYRTSKeaaaAG0UUUAKKlQ1EOKlSg
+CUUopop1ADTTGHFSGmEUARmk704im0AOFPXpTFp4oAkWnCmL1qQUABpp6U40h6UAREZOKvpxGBVO
+Ncyir2M0Ac7RS0lAF+il2P8A3G/KjY/9xvyp2YroSil2P/cb8qNj/wBxvyoswuhKQmnbH/uN+VGx
+/wC435UWYXRGaaetSGN/7jflTTHJ/wA82/KizC6I6Kf5Un/PN/yNJ5Un/PN/++TRZhdCCnrQsMhP
+KlfcjFPELDuKlyS0ZrGlOavFDgeKfSBD7Uu00uePcv6vV/lEJ4pjU/afakMZPpRzx7h9Xq/ykRpK
+l8pvUUx1KnBoUk9iZUZwV5IQU8GmCnCqMiQVIKjWpVHGaADFIRT6QigBYEzJmpyQDUMRwxpztQBh
+0lLSUAek0UUjMFUsc4AzwMn8hQAtFVvt0P8AcuP/AAGk/wDiasKwZQwzgjPIwfyNAC0UUUAFFFVL
+lPNv4I2eQJ5UjEJIyZIKY6EepoAt0VSkgW3urUxvN80pVg0zsCNjHoT6gVdoAzPEH/Hin/XQfyNY
+97/x+z/9dG/nWx4g/wCPFP8AroP5Gse9/wCP2f8A66N/OsZbnp4b4F8/0IaKKt2sS3SeUQEZeRJ2
+x6NSOmUuVXZUoqa62q/lJGUEfGWHzE+pqGgE7q4jfcb/AHT/ACqCb74+lTt9xv8AdP8AKq8/3x9K
+uPT5/ocmJ2l8v1GCnU0U6tDziROtTjpVdKnU0AOpDS0lADc4kP0pS1Ml4Kn8Ki39qAKFJS0lAHpN
+FFFABRRRQAUUUUAFQT23mypIs0kTopUFNvIOM9QfQVPRQBWW0bzY5JLqaXy2LKrBAM4I7KOxNWaK
+KAMzxB/x4p/10H8jWPe/8fs//XRv51seIP8AjxT/AK6D+RqjcWay3Eki3loA7lhmX1NZS3Z6WHkl
+TV/P9DPqeBWu5ILMSGJWZiWUckhSRn16dKl/s/8A6fLT/v7/APWqWztfI1K1b7RBJl2GI3yfuNRF
+al1pxcHYp3JnSUQXSgSxjGf7y9iD3FRVsapcWV5bxhd0jF2WOaPbhGA5BJIHPp3/ACqjHYlo1L3V
+orEAkeb0NEo2IoVuaNpFRvuN/un+VQT/AHx9K0J7PyoHf7TbvgfdSTJP4VnzffH0px6fMmu7xk15
+fqR06m04VoeeOXg1MnNQCpUNAEtLTQaWgBJBlPpVVxhqtkZUj2qBlzg+tAGdSUtJQB6TRRRQAUUU
+UAFFFFABRRRQAUUUUARXFvFcoEmXcoOcZI5/Cq/9k2P/ADw/8fb/ABq7RSaTLjUnFWTZS/smx/54
+f+Pt/jUVxpdoPLVIgpdiuSzdNpz0I+laVRT/AOtt/wDrof8A0FqVkhurNqzbM5tFGGRJIliZlYp5
+bHlT1HzcZHH0qT+yIv7sX/fL/wDxVPt4oJmlluFR5kkYEt1TB4x6cYNRQSyhvIhMaM8szbnUkcN0
+wCPWp3BTnHZg+jRshAMaE/xKrZH5tVWfQVSJ5Dcs2xScbeuKvx3cztA7BUikUc7S25jngHPH4jmo
+4bq5urKaSWILE8JZCMenT7xz+QppClUnJWbZy1LVkWrHuKU2bZ6jFWQVqkUH0qVYAp+Yg+wp5cIO
+F60AMUHHSlw3pUqHIpxcKKAIQDnoaiZSpwalkuAvAGTTWVym98fSgDHooooA9JooooAKKKKACiii
+gAooooAKKKKACiiigAqK4DZiZEL7XyQCM42kd/rUtFAFV0SSVZXsC0i9HIQkfjmh0SRNklgXXO7D
+BCM+vXrVqilYClM8MTfaZbIhkGBJtQkDp1znvVN76x2TeVb7JJVILBFBOfU1e1b/AJB0v4fzFc6C
+KLATBveoXnJyB07mmzOBHtJILelV12g4zTAmBJ78U4KPvGmA+9IWPTvQBKWAHpVeSXANKTxzUDHf
+IB2oAs2kWT5jc+lTSHdkULgJgelIRxQBiUUtJQB6TRUf2mD/AJ7J/wB9Cj7TB/z2T/voUASUVH9p
+g/57J/30KPtMH/PZP++hQBJRUf2mD/nsn/fQo+0wf89k/wC+hQBJRUf2mD/nsn/fQo+0wf8APZP+
++hQBJRUf2mD/AJ7J/wB9Cj7TB/z2T/voUASUVH9pg/57J/30KPtMH/PZP++hQBJRUf2mD/nsn/fQ
+o+0wf89k/wC+hQBJRUf2mD/nsn/fQo+0wf8APZP++hQBX1f/AJBsv4fzrnFFb+qzRPp8qpIjHjgH
+3rBXgU+gupDcMNwxzimog69aikPznOetOVuOKQyUgCm7wBjvTGYn3pBx9aAHPwuc1FD/AKylk6c0
+xThgaAL2c8U5feolOakPC0AY9JS0lAHpNFYxiBvpGaJFxNGPP/jT5V46dD069+lX9P8A9TJ/12k/
+9CNAFqiiigAooooAKKKKACk/iH0paT+IfSgBaKoX0bvf2xjOJER2XPTPy8H2PSoYbtmmlMG1WmnV
+MuMhD5YJyOOeMUAatFZqT3Ml7BmRAoEgcKpw20gZHP8AjjnrRb3l9PbmVbcbWAZDgHAzz/F83H+7
+0oA0HPSm7ucbuRzjNNik82BH3BsjqFK5/A8iqkdk6Ok3nEz7syHsw7j/AD/+oATWT/oB/wB4fyNc
++pzW/rX/ACDz/vD+Rrn1FPoLqV5SCxxQmMUSrtc8U0D5h1pDHHFA6051yMgU3HHFAAeVxUVS44xT
+GGKAJYWyMd6kZqqK205qwHDCgDPpKKKAPRzFGwYGNSH+8CPvfX1piW1ukplSCJZD1cIAT+NS0UAF
+FFFABRRRQAUVGkyO+xSd20NgqQcHp1+hqSgApP4h9KWjvQAhVSwYqCwGAccimNbwurq0MbK5ywKg
+hj6n1ptxdRW2PN8wA91jZh6dQKdHPHI21S27aGwylTg59foaADyIcRjyo8R/c+UfL9PSmGytSXJt
+oTv+9+7Hzd+fWplYMWAz8pwcgj/9dDMFKg5+Y4GAT/8AqoAbtVFVUUKoGAAMACkpz9qbQBR1n/kH
+n/eH8jXOAnvXRa1/yD2/3v6GuaU9afQXUWbkA+nNQ5yc1Pnj61A/ytgUhkik7eKb0PJpgOD1qQYP
+Oc0AOx6c1FIMGpBIBxTXYHmgCIigHBpSaSgCvSUUUAdsyXgAjVpN0iBy2ThWGSR+JwMemaU/anCs
+PNX7RuUjkeWCRg+3AP4mtDf7Ub/anYCrayThd0ySFmYRgY4GByx9ic8/SqO+bG1GuvONvIXDbvv8
+fd/Hpjitjf7VDFBFFIZFVi5GNzuzHHoMk4osBTmt5gJwkl0dsAdPnbmTn/AcdPalZrhtTjIEqqGA
+YYcqw29c52jntjPFaO/2o3+1FgM+zM0bLJNHMzG3jU/KSc7jn8s5NWzc4BPkTHAc8J12/wCPb1qX
+f7Ub/agBwOQD0o703f7Ubu+KLAQ6grPbYVSx8xDgDP8AEKq3sMj3FxJGZlK242GMkZYFvTr9PetD
+f7Ub/aiwGbcGb98zGfAkBVFD/MNg4BXkDPfpmrdx5v8AouwOvz/OBk4G09fxxU+/2o3+1FgKlhu+
+zkN5hIbG6TeC3A5w3I+nSrNKxyBSUgKGt/8AIOb/AHv6GuZBArptb/5BrfX+hrlw2KfQXUfupj4N
+ITTSaQxv1oBI5FKeaaeKAH/eNIQRSUBqADOaUj0pOtFAFaiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="a002e690-d464-4233-9ad7-6e5e189fe5f3"
+	name="NewProject1Repository"
+	relativepath="NewProject1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="NewProject1Repository"
+		namespace="NewProject1">
+		</codegen>
+		<rootfolder
+		id="ba2d8fad-c055-4cec-9fd6-8ecbd36eb38f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

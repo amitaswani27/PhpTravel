@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="KeePass"
+      id="e364756b-a69e-4d71-8123-08873dbf20da"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="KeePass"
+      id="e364756b-a69e-4d71-8123-08873dbf20da"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

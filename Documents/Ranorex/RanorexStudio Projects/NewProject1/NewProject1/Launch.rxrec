@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0e9d3835-f97f-4774-aad4-176f91bed909"
+mode="Global"
+rxversion="7.2">
+	<name>
+		Launch
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Launch"
+	namespace="NewProject1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="a002e690-d464-4233-9ad7-6e5e189fe5f3"
+	name="NewProject1Repository"
+	relativepath="NewProject1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="NewProject1Repository"
+		namespace="NewProject1">
+		</codegen>
+		<rootfolder
+		id="ba2d8fad-c055-4cec-9fd6-8ecbd36eb38f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Launch.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

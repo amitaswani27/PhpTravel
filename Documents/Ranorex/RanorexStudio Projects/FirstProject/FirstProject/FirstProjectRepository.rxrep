@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="FirstProjectRepository"
+id="21f105ad-49d3-4e48-9428-7cc12fdd157f"
+rxversion="7.2">
+  <codegen
+  classname="FirstProjectRepository"
+  namespace="FirstProject"/>
+  <rootfolder
+  name="Root"
+  id="8545c898-7f29-4ab5-bf85-60825452de08"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

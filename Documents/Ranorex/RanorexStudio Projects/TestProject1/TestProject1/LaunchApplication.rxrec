@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6ff057bb-e2ee-4d9f-9278-76a304ebaf8f"
+mode="Desktop"
+rxversion="7.2">
+	<name>
+		Launch
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Launch"
+	namespace="TestProject1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\KeePass Password Safe 2\KeePass.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\KeePass Password Safe 2
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="2c1af4df-8856-43a0-b141-4e3da79573f9"
+	name="TestProject1Repository"
+	relativepath="TestProject1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="TestProject1Repository"
+		namespace="TestProject1">
+		</codegen>
+		<rootfolder
+		id="bd0b54cb-1abf-474c-9ec9-5bc17d44d614"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Launch.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

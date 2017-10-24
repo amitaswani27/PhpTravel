@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TestProject"
+      id="fc55df4c-375b-4631-b46b-d9e68fcf0f97"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TestProject"
+      id="fc55df4c-375b-4631-b46b-d9e68fcf0f97"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

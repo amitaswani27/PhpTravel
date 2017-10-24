@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4876e6b0-80c6-41f2-89d6-f91a2bd6dee0"
+mode="Global"
+rxversion="7.2">
+	<name>
+		DeleteRecord
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DeleteRecord"
+	namespace="FirstProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="21f105ad-49d3-4e48-9428-7cc12fdd157f"
+	name="FirstProjectRepository"
+	relativepath="FirstProjectRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="FirstProjectRepository"
+		namespace="FirstProject">
+		</codegen>
+		<rootfolder
+		id="8545c898-7f29-4ab5-bf85-60825452de08"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DeleteRecord.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

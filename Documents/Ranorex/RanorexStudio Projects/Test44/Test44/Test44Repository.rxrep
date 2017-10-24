@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Test44Repository"
+id="ef6d5cce-d489-4d76-91c9-040c3d8c899e"
+rxversion="7.2">
+  <codegen
+  classname="Test44Repository"
+  namespace="Test44"/>
+  <rootfolder
+  name="Root"
+  id="396596d7-ce57-4092-a731-0dfafc85d123"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

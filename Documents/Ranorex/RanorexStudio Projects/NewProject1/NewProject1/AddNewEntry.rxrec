@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1c5ef5a9-9422-4061-85b3-3ad8dc4114b4"
+mode="Global"
+rxversion="7.2">
+	<name>
+		AddNewEntry
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddNewEntry"
+	namespace="NewProject1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="a002e690-d464-4233-9ad7-6e5e189fe5f3"
+	name="NewProject1Repository"
+	relativepath="NewProject1Repository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="NewProject1Repository"
+		namespace="NewProject1">
+		</codegen>
+		<rootfolder
+		id="ba2d8fad-c055-4cec-9fd6-8ecbd36eb38f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddNewEntry.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
