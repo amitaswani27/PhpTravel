@@ -2,6 +2,13 @@ package runner;
 
 import org.junit.runner.RunWith;
 
+/**
+ * This class execute the feature file with JUnit and create an HTML report
+ * 
+ * @author Amit Aswani
+ * 
+ */
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
