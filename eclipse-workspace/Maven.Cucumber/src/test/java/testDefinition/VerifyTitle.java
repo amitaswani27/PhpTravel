@@ -29,8 +29,7 @@ public class VerifyTitle {
 		driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
-	}
+		}
 	
 	/**
 	 * Following method will enter the parameterized username and password.
