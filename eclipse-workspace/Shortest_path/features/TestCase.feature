@@ -8,6 +8,8 @@ Feature: Test Train planner
     And Correct "<Distance>" in miles should appear
     And A message should appear as Success
 
+# The logic is parameterized so that the test scenario can be run with all the values
+
     Examples: 
       | Code | Longitude | Latitude | Distance |
       | ABD  |    394109 |   805933 |      2.7 |
