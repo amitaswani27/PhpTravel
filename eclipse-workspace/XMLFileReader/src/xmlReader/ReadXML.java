@@ -2,12 +2,21 @@ package xmlReader;
 
 import java.io.File;
 
+/*
+Used Dom parser which has following benefits:
+
+DOM presents the xml document as a the following tree-structure in memory.
+DOM is W3C standard.
+DOM parser works on Document Object Model.
+DOM occupies more memory, preferred for small XML documents
+DOM is Easy to navigate either forward or backward.
+
+ */
 import java.util.Collections;
 import java.util.HashMap;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
