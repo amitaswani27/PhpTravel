@@ -22,12 +22,12 @@ public class VerifyTitle {
 	
 	WebDriver driver;
 		
-	@Given("^Start Firefox and open Facebook$")
+	@Given("^Start Firefox and open PhpTravel$")
 	public void Start_Firefox_and_open_Facebook() throws Throwable {
 		
 		System.setProperty("webdriver.gecko.driver", "./Resource/Drivers/geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.phptravels.net/login");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}
 	
@@ -38,16 +38,16 @@ public class VerifyTitle {
 	 * 
 	 */
 
-	@When("^Enter valid \"([^\"]*)\" \"([^\"]*)\" and click login$")
-	public void Enter_valid_username_password_and_click_login(String usern, String pass) throws Throwable {
+	@When("^Enter valid user name and password and click login")
+	public void Enter_valid_username_password_and_click_login() throws Throwable {
 		
-		driver.findElement(By.id("email")).sendKeys(usern);
-		driver.findElement(By.id("pass")).sendKeys(pass);
-		driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
+		driver.findElement(By.name("username")).sendKeys("amit.aswani@hotmail.com");
+		driver.findElement(By.name("password")).sendKeys("Amit1234$");
+		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[1]/form/button")).click();
 	}
 
 	/**
-	 * logout successfully method will simply quit the application
+	 * logout successfully method will simply quit the application.
 	 * 
 	 */
 	
