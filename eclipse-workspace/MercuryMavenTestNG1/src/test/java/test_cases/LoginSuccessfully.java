@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import core.Core;
 import web_pages.FlightFinder;
 import web_pages.LoginPage;
-import web_pages.PersonalDetails;
 
 /**
  * LoginSuccessfully Class will have all the test cases which is used to perform
@@ -27,7 +26,5 @@ public class LoginSuccessfully extends Core{
 	FlightFinder FlightDetails = PageFactory.initElements(driver, FlightFinder.class);
 	FlightDetails.SelectFlightDetails();
 	
-	PersonalDetails PersonalD = PageFactory.initElements(driver, PersonalDetails.class);	
-	PersonalD.PersonalDet();
 	}
 }

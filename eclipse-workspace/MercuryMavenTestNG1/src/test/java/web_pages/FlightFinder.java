@@ -1,9 +1,14 @@
 package web_pages;
 
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
+
+import utilities.CommonDriver;
+
 
 /**
  * FlightFinder class refers to the Flight Finder/Details page of Mercury site
@@ -15,28 +20,57 @@ import org.openqa.selenium.support.ui.Select;
 public class FlightFinder {
 	
 	WebDriver driver;
+	
 	public FlightFinder (WebDriver driver)
 	{
 		this.driver = driver;
 	}
 
-	@FindBy(xpath = "//input[@value='oneway']")
-	WebElement Oneway;
+	@FindBy(xpath = "//*[@id='collapse']/ul[1]/li[1]/a") 
+	WebElement Home;
 	
-	@FindBy(name = "fromPort")
-	WebElement Departure;
+	@FindBy(xpath = "//*[@id='body-section']/section/div[2]/div/div/div[2]/ul/li[3]/a")
+	WebElement Tours;
 	
-	@FindBy(name = "toPort")
-	WebElement Arrival;
+	@FindBy(xpath = "//*[@id='s2id_autogen10']/a/span[1]")
+	WebElement FromCity;
 	
-	@FindBy(xpath="//input[@value='First']")
-	WebElement ServiceClass;
+	@FindBy(xpath = "//*[@id='select2-drop']/div/input")
+	WebElement inputcity;
 	
-	@FindBy(name = "findFlights")
-	WebElement Continue;
+	@FindBy(xpath="//*[@id='select2-drop']/ul/li/ul/li/div")
+	WebElement autosuggFrom;
 	
-	@FindBy(name = "reserveFlights")
-	WebElement DepartContinue;
+	@FindBy(xpath="//*[@id='TOURS']/form/div[5]/button")
+	WebElement TourSearch;
+	
+	@FindBy(xpath="//*[@id='body-section']/div[3]/div[2]/div[2]/div/form/div[4]/button")
+	WebElement Book;
+	
+	@FindBy(name="passport[1][name]")
+	WebElement GuestName1;
+	
+	@FindBy(name="passport[1][passportnumber]")
+	WebElement GuestPass1;
+	
+	@FindBy(name="passport[1][age]")
+	WebElement GuestAge1;
+	
+	@FindBy(name="passport[2][name]")
+	WebElement GuestName2;
+	
+	@FindBy(name="passport[2][passportnumber]")
+	WebElement GuestPass2;
+	
+	@FindBy(name="passport[2][age]")
+	WebElement GuestAge2;
+	
+	@FindBy(name="logged")
+	WebElement Confirmbooking;
+	
+	@FindBy(xpath="//*[@id='invoiceTable']/tbody/tr[2]/td/div[1]/table/tbody/tr/td/div[3]")
+	WebElement Invoice;
+	
 	
 	/**
 	 * SelectFlightDetails method will select all the required details and click on Continue
@@ -47,19 +81,60 @@ public class FlightFinder {
 
 	public void SelectFlightDetails()
 	{
-		Oneway.click();
 		
-		Select Depart = new Select(Departure);
-		Depart.selectByVisibleText("Sydney");
+		String InputFromCity = CommonDriver.getProperties("InputFromCity");
+		String guestname1 = CommonDriver.getProperties("GuestName1");
+		String guestpass1 = CommonDriver.getProperties("GuestPass1");
+		String guestage1 = CommonDriver.getProperties("GuestAge1");
+		String guestname2 = CommonDriver.getProperties("GuestName2");
+		String guestpass2 = CommonDriver.getProperties("GuestPass2");
+		String guestage2 = CommonDriver.getProperties("GuestAge2");
 		
-		Select Arrival1 = new Select(Arrival);
-		Arrival1.selectByVisibleText("London");
+		Home.click();
 		
-		ServiceClass.click();
+		Home.click();
 		
-		Continue.click();
+		Tours.click();
 		
-		DepartContinue.click();
+		Tours.click();
+		
+		FromCity.click();
+		
+		inputcity.sendKeys(InputFromCity);
+
+		autosuggFrom.click();
+		
+		TourSearch.click();
+		
+		Book.click();
+		
+		GuestName1.sendKeys(guestname1);
+	    
+	    GuestPass1.sendKeys(guestpass1);
+	    
+	    GuestAge1.sendKeys(guestage1);
+	    
+	    GuestName2.sendKeys(guestname2);
+	    
+	    GuestPass2.sendKeys(guestpass2);
+	    
+	    GuestAge2.sendKeys(guestage2);
+	    
+	    Confirmbooking.click();
+	    
+	    boolean present;
+		try {
+		   driver.findElement(By.xpath("//*[@id='invoiceTable']/tbody/tr[2]/td/div[1]/table/tbody/tr/td/div[3]"));
+		   present = true;
+		   System.out.println("Booking has been confirmed");
+			
+				  
+		} catch (NoSuchElementException e) {
+		   present = false;
+		   
+			System.out.println("Booking has not confirmed");
+		}
+		
 	}
 	
 }
