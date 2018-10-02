@@ -30,7 +30,7 @@ public class Browser {
 			}
 			else if(browserName.equalsIgnoreCase("firefox")||browserName.equalsIgnoreCase("Mozilla"))
 			{
-				System.setProperty("webdriver.gecko.driver", "./Resources/Drivers/geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver","./Resources/Drivers/geckodriver.exe");
 				driver = new FirefoxDriver();
 			}
 			else
@@ -43,7 +43,5 @@ public class Browser {
 		}
 		return driver;
 	}
-	
-	
 
 }
